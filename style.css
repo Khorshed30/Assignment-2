@@ -7,12 +7,13 @@
     display: flex;
     margin: 15px 10% 15px 10%;
 }
+
 .manu{
     margin-top: 35px;
-    margin-left: 40%;
+    margin-left: 37%;
 }
 .manu-bar{
-    margin-right: 10px;
+    margin-right: 20px;
     text-decoration: none;
 }
 
@@ -27,6 +28,16 @@
     margin: 15px 10% 15px 10%;
 }
 
+.main-heading{
+    font-size: 50px;
+}
+.prebook-btn{
+    background-color: rgb(236, 27, 79);
+    color: white;
+    padding:15px 35px 15px 35px;
+    text-decoration: none;
+}
+
 
 /* ---------------------------------
      this is the logo part
@@ -34,18 +45,23 @@
 
 
 .logo-part{
-    margin:7% 25% 10px 20%;
+    margin:7% 25% 10px 17%;
     
     
 }
 .logos{
     display: flex;
     border: 1px solid rgb(225, 227, 230);
-    width: 700px;
+    width: 830px;
     height: 100px;
     align-items: center;
-    padding-left: 15%;
+    
+    margin-left: 0px;
     background-color: rgb(240, 240, 247);
+}
+.logo{
+
+    margin-left: 25px;
 }
 
 
@@ -55,16 +71,75 @@
 /* -----------------------
         middle part styles
 -------------------------- */
-
+.container{
+    margin: 95px 120px 25px 100px;
+    padding-right: 25px;
+}
+.cameras{
+    text-align: center;
+}
 .devices{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    grid-column-gap: 24px;
-    grid-row-gap: 12px;
-    margin: 15px 50px 15px 50px;
+   
+    
 }
 .device{
-    border: 1px solid lightgrey;
-    padding-left: 15%;
+    background-color: rgb(240, 244, 248);
+    border-radius: 5px;
+    margin: 10px;
+    padding: 20px 20px 0px 20px;
+
+}
+.device-title{
+    font-size: 30px;
+}
+.price{
+    font-size: 25px;
 }
 
+.fas.filled{
+    font-size: 8px;
+    color: #ffc014;
+    
+}
+.fas.empty{
+    font-size: 8px;
+    color: #aeaeae;
+    
+}
+span{
+    font-size: 13px;
+}
+
+
+
+
+/* footer part  */
+
+.footer-part{
+    background-color: rgb(17, 10, 56);
+    height: 200px;
+
+}
+.footer-1st{
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+}
+.footer-logos{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.fab{
+    color: white;
+    display: flex;
+    background-color: rgb(143, 140, 140);
+    margin: 10px;
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    justify-content: center;
+    
+}
