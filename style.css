@@ -1,0 +1,70 @@
+
+/* ----------------------------
+     this is the header part
+-----------------------------*/
+
+.header-line{
+    display: flex;
+    margin: 15px 10% 15px 10%;
+}
+.manu{
+    margin-top: 35px;
+    margin-left: 40%;
+}
+.manu-bar{
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+
+/* ---------------------------------
+     this is the main section part
+-----------------------------------*/
+
+
+.main{
+    display: flex;
+    margin: 15px 10% 15px 10%;
+}
+
+
+/* ---------------------------------
+     this is the logo part
+-----------------------------------*/
+
+
+.logo-part{
+    margin:7% 25% 10px 20%;
+    
+    
+}
+.logos{
+    display: flex;
+    border: 1px solid rgb(225, 227, 230);
+    width: 700px;
+    height: 100px;
+    align-items: center;
+    padding-left: 15%;
+    background-color: rgb(240, 240, 247);
+}
+
+
+
+
+
+/* -----------------------
+        middle part styles
+-------------------------- */
+
+.devices{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 24px;
+    grid-row-gap: 12px;
+    margin: 15px 50px 15px 50px;
+}
+.device{
+    border: 1px solid lightgrey;
+    padding-left: 15%;
+}
+
