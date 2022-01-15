@@ -1,4 +1,10 @@
 
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #f3f1ff;
+}
+
 /* ----------------------------
      this is the header part
 -----------------------------*/
@@ -10,11 +16,15 @@
 
 .manu{
     margin-top: 35px;
-    margin-left: 37%;
+    margin-left: 35%;
+    
 }
 .manu-bar{
     margin-right: 20px;
     text-decoration: none;
+    color: rgb(27, 26, 26);
+    font-weight: 700;
+    font-size: 13px;
 }
 
 
@@ -27,15 +37,30 @@
     display: flex;
     margin: 15px 10% 15px 10%;
 }
+.main-left{
+    margin-right: 20%;
+}
 
 .main-heading{
-    font-size: 50px;
+    font-size: 45px;
+    font-weight:bold;
 }
 .prebook-btn{
     background-color: rgb(236, 27, 79);
     color: white;
     padding:15px 35px 15px 35px;
     text-decoration: none;
+    border-radius: 50px 50px 50px 50px;
+}
+.camera img{
+    width: 350px;
+}
+.camera:hover img{
+    
+    /* transition: transform 2s ease-in-out;  */
+    transition: width 1s ,height 1s,transform 3s;
+    transform: rotate(360deg);
+
 }
 
 
@@ -91,6 +116,14 @@
     padding: 20px 20px 0px 20px;
 
 }
+.device:hover .device-banner{
+    transform: scale(1.1) skew(-30deg);
+    transition: transform 2s ease-in-out;
+}
+.device-details{
+    display: grid;
+    grid-row-gap:1px ;
+}
 .device-title{
     font-size: 30px;
 }
@@ -113,7 +146,23 @@ span{
 }
 
 
+/* last btn part  */
+.last-btn-arrow{
+    margin-top: 35px;
+    margin-bottom: 55px;
+    
+}
+.see-btn{
+    display: flex;
+    color: rgba(235, 46, 87, 0.925);
+    text-decoration: none;
+    justify-content: flex-end;
+    font-size: 13px;
+    align-items: center;
+    font-weight: 700;
+    
 
+}
 
 /* footer part  */
 
@@ -126,6 +175,14 @@ span{
     text-align: center;
     color: white;
     padding-top: 10px;
+}
+.footer-heading{
+    font-size: 25px;
+    font-weight: 700px;
+    
+}
+.footer-para{
+    font-size: 13px;
 }
 .footer-logos{
     display: flex;
@@ -143,3 +200,11 @@ span{
     justify-content: center;
     
 }
+
+
+
+
+/*----------------------
+      For Media device
+ -------------------------*/
+
