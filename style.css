@@ -19,12 +19,17 @@ body{
     margin-left: 35%;
     
 }
+
 .manu-bar{
     margin-right: 20px;
     text-decoration: none;
     color: rgb(27, 26, 26);
     font-weight: 700;
     font-size: 13px;
+}
+.manu-bar:hover{
+    background-color: rgb(150, 135, 135);
+    color: rgb(245, 122, 21);
 }
 
 
@@ -71,8 +76,7 @@ body{
 
 .logo-part{
     margin:7% 25% 10px 17%;
-    
-    
+     
 }
 .logos{
     display: flex;
@@ -110,11 +114,15 @@ body{
     
 }
 .device{
-    background-color: rgb(240, 244, 248);
+    background-color: rgb(220, 224, 228);
     border-radius: 5px;
     margin: 10px;
-    padding: 20px 20px 0px 20px;
+    padding: 20px;
+    overflow: hidden;
 
+}
+.device-banner img{
+    width: 100%;
 }
 .device:hover .device-banner{
     transform: scale(1.1) skew(-30deg);
@@ -125,10 +133,16 @@ body{
     grid-row-gap:1px ;
 }
 .device-title{
-    font-size: 30px;
+    font-size: 24px;
+    margin: 10px 0 5px 0;
 }
 .price{
     font-size: 25px;
+    margin: 10px 0 10px 0;
+
+}
+.property{
+    line-height: 24px;
 }
 
 .fas.filled{
@@ -189,7 +203,7 @@ span{
     justify-content: center;
     align-items: center;  
 }
-.fab{
+.only-icon{
     color: white;
     display: flex;
     background-color: rgb(143, 140, 140);
@@ -198,6 +212,7 @@ span{
     height: 35px;
     border-radius: 100%;
     justify-content: center;
+    align-items: center;
     
 }
 
@@ -207,4 +222,120 @@ span{
 /*----------------------
       For Media device
  -------------------------*/
+
+ /* For  ipad  */
+@media only screen and (min-width:688px ) and (max-width:992px) {
+
+    .header-line{
+        display: flex;
+        margin: 15px;
+    }
+    .manu {
+        margin-top: 35px;
+        margin-left: 0; 
+    }
+     .manuhead{
+         width: 50%;
+     }
+    .main{
+        display: block;
+        margin: 15px;
+    }
+    .main-left{
+        margin-right: 0;
+    }
+    .camera{
+        margin-top: 15px;
+    }
+    .main{
+        display: flex;
+        margin: 15px 10% 15px 10%;
+    }
+    .devices{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+       
+        
+    }
+    .container{
+        margin: 95px 15px 25px 0px;
+        
+    }
+    .logos{
+        display: grid;
+        border: 1px solid rgb(225, 227, 230);
+        grid-template-columns: repeat(3,1fr);
+        width: 100%;
+        height: auto;
+        align-items: center;
+        
+        margin-left: 30px;
+        background-color: rgb(240, 240, 247);
+    }
+    .logo-part{
+        margin:7% 15px 10px 15px;
+         
+    }
+    .logo{
+
+        margin: 5px 10px;
+    }
+
+
+    
+ }
+
+ @media only screen and (max-width:688px) {
+     .header-line{
+        display: block;
+        margin: 15px;
+    }
+    .manu {
+        margin-top: 35px;
+        margin-left: 0; 
+    }
+     .manuhead{
+         width: 100%;
+     }
+    .main{
+        display: block;
+        margin: 15px;
+    }
+    .main-left{
+        margin-right: 0;
+    }
+    .camera{
+        margin-top: 15px;
+    }
+    .devices{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+       
+        
+    }
+    .container{
+        margin: 95px 15px 25px 0px;
+        
+    }
+    .logos{
+        display: grid;
+        border: 1px solid rgb(225, 227, 230);
+        grid-template-columns: repeat(2,1fr);
+        width: 100%;
+        height: auto;
+        align-items: center;
+        
+        margin-left: 0px;
+        background-color: rgb(240, 240, 247);
+    }
+    .logo-part{
+        margin:7% 15px 10px 15px;
+         
+    }
+    .logo{
+
+        margin: 5px 10px;
+    }
+
+ }
 
